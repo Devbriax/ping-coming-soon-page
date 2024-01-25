@@ -1,0 +1,109 @@
+/*** MAIN-STYLING ***/
+
+@import url('https://fonts.google.com/specimen/Libre+Franklin');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  --primary: hsl(223, 87%, 63%);
+  /* --secondary: hsl(223, 100%, 88%);*/
+  /*--background-color: hsl(354, 100%, 66%);*/
+  /* --font-color: hsl(0, 0%, 59%);*/
+  /*  --paragraph-text: hsl(209, 33%, 12%);*/
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Libre' Franklin, sans-serif;
+  font-weight: 300, '600', 700;
+}
+
+/*** END-MAIN-STYLING ***/
+
+/*** Block-styling ***/
+.main-container {
+  background: var('--primary');
+  text-align: center;
+}
+
+.logo-img {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+form {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+form h2 {
+  color: hsl(0, 0%, 59%);
+}
+
+strong {
+  color: hsl(209, 33%, 12%);
+}
+
+form p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input#email-address {
+  border: 1px solid hsl(0, 0%, 59%);
+  border-radius: 7px;
+  padding: 9px;
+}
+
+button {
+  border: 1px solid hsl(223, 87%, 63%);
+  border-radius: 7px;
+  background-color: hsl(223, 87%, 63%);
+  padding: 9px;
+}
+
+.illustration {}
+
+.social-links-icons {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+small {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: hsl(0, 0%, 59%);
+}
+
+/*** End Block-styling ***/
+
+
+/*** Footer-styling ***/
+footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: hsl(0, 0%, 59%);
+}
+
+.attribution {
+  font-size: 13px;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*** End-Footer-styling ***/
+
+
+/*** Media Queries ***/
+@media (min-width: 375px) {}
+
+@media (max-width: 1440px) {}
+
+/*** End Media Queries ***/
