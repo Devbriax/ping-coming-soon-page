@@ -18,8 +18,8 @@
 
 body {
   font-size: 20px;
-  font-family: 'Libre+Franklin', sans-serif;
-  font-weight: 300, '600', 700;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
 }
 
 /*** END-MAIN-STYLING ***/
@@ -31,8 +31,10 @@ body {
 }
 
 .logo-img {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  /* padding-top: 1.5em; */
+  /* padding-bottom: 1.5em; */
+  padding: 1rem;
+  margin: 0.5rem;
 }
 
 form {
@@ -42,8 +44,10 @@ form {
   padding-right: 1em;
 }
 
-form h2 {
+h2 {
   color: hsl(0, 0%, 59%);
+  font-weight: 200;
+  padding: 8px;
 }
 
 strong {
@@ -57,16 +61,17 @@ form p {
 
 input#email-address {
   border: 1px solid hsl(0, 0%, 59%);
-  border-radius: 7px;
-  padding: 9px;
+  border-radius: 34px;
+  padding: 15px;
   width: 32%;
 }
 
 button {
-  border: 1px solid hsl(223, 87%, 63%);
-  border-radius: 7px;
+  /* border: 1px solid hsl(223, 87%, 63%); */
+  border-radius: 34px;
   background-color: hsl(223, 87%, 63%);
-  padding: 9px;
+  color: #fff;
+  padding: 15px;
   width: 21%;
 }
 
@@ -77,14 +82,14 @@ img {
 
 
 .social-links-icons {
-  padding-bottom: 2em;
-  padding-top: 2em;
+  /* padding-bottom: 2em; */
+  /* padding-top: 2em; */
+  padding: 35px;
 }
 
 small {
-  padding-top: 1em;
-  padding-bottom: 1em;
   color: hsl(0, 0%, 59%);
+  padding: 1rem;
 }
 
 /*** End Block-styling ***/
@@ -92,11 +97,16 @@ small {
 
 /*** Footer-styling ***/
 footer {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  /* padding-top: 1em; */
+  /* padding-bottom: 1em; */
   color: hsl(0, 0%, 59%);
+  padding: 1rem;
 }
 
+.copywrite-notice {
+  color: hsl(0, 0%, 59%);
+  padding: 1rem;
+}
 .attribution {
   font-size: 13px;
   text-align: center;
