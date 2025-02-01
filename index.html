@@ -4,11 +4,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Frontend Mentor | Ping coming soon page</title>
     <link rel="import" href="https://fonts.google.com/specimen/Libre+Franklin">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/actions.js"></script>
   </head>
 
   <body>
@@ -24,9 +24,9 @@
       <p>
         Subscribe and get notified
       </p>
-      <form action="#" method="post">
-        <input type="email" name="email" id="email-address" placeholder="Your email address" required>
-        <button type="submit">Notify Me</button>
+      <form action="/js/actions.js" method="post">
+        <input type="email" name="email" id="email_address" placeholder="Your email address" required>
+        <button class="submit" id="submit-btn">Notify Me</button>
       </form>
 
       <section class="illustration">
