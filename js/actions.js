@@ -4,7 +4,7 @@ let document.getElementById("email_address").innerHTML = "Thank you for your sub
 
 
 //Button action once clicked
-onclick=(function alertClick)(document.getElementById("submit-btn")
-   onclick = (function alertClick() {
-      alert("You've subscribed to our newsletter!");
-   });
+onclick=(function alertClick)
+{
+    alert("Thank you for your subscription");
+}                                                                                                                                                  
